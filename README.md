@@ -10,15 +10,23 @@ python3 setup.py develop --user
 ```
 
 ## troubleshooting
+
 - if you got on error on color init try : 
 ```
 export TERM='xterm-256color'
 ```
+
 ## add alias
 - inside your .bashrc or .zshrc add the path to app.py
 ```
 alias a='python3 $HOME/git/arsenal/arsenal/app.py'
 ```
+
+## Add your own cheat sheet
+```
+mkdir ~/.mycheats
+```
+Add your own md file inside the `~/.mycheats` folder
 
 ## TODO cheatsheets 
 
